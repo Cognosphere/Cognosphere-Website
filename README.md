@@ -1,2 +1,2 @@
-# cognosphere-website
-Repository for Django Website. 
+# Cognosphere-Website
+Repository for Django Website.
