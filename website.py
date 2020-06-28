@@ -12,9 +12,9 @@ def index():
 def form():
 	return render_template("about.html")
 
-@app.route("/courses.html")
-def courses():
-	return render_template("courses.html")
+#@app.route("/courses.html")
+#def courses():
+	#return render_template("courses.html")
 
 @app.route("/course-details.html")
 def course_details():
@@ -28,13 +28,13 @@ def register():
 def elements():
 	return render_template("elements.html")
 
-@app.route("/blog-home.html")
-def blog_home():
-	return render_template("blog-home.html")
+#@app.route("/blog-home.html")
+#def blog_home():
+	#return render_template("blog-home.html")
 
-@app.route("/blog-single.html")
-def blog_single():
-	return render_template("blog-single.html")
+#@app.route("/blog-single.html")
+#def blog_single():
+	#return render_template("blog-single.html")
 
 if __name__ == '__main__':
 	app.run(debug=True)

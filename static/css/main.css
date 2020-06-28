@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -3161,4 +3161,9 @@ h6 {
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s; }
 
+
 /*# sourceMappingURL=main.css.map */
+
+#register{
+	font-size: 1.2em;
+}
