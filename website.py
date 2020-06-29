@@ -49,9 +49,9 @@ def course_details_scratch():
 def course_details_web1():
 	return render_template("course-details-web1.html")
 
-@app.route("/contacts.html")
+@app.route("/register.html")
 def register():
-	return render_template("contacts.html")
+	return render_template("register.html")
 
 @app.route("/elements.html")
 def elements():
