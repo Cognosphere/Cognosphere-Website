@@ -16,9 +16,37 @@ def form():
 #def courses():
 	#return render_template("courses.html")
 
-@app.route("/course-details.html")
-def course_details():
-	return render_template("course-details.html")
+@app.route("/course-details-python1.html")
+def course_details_python1():
+	return render_template("course-details-python1.html")
+
+@app.route("/course-details-python2.html")
+def course_details_python2():
+	return render_template("course-details-python2.html")
+
+@app.route("/course-details-python3.html")
+def course_details_python3():
+	return render_template("course-details-python3.html")
+
+@app.route("/course-details-biomed.html")
+def course_details_biomed():
+	return render_template("course-details-biomed.html")
+
+@app.route("/course-details-java1.html")
+def course_details_java1():
+	return render_template("course-details-java1.html")
+
+@app.route("/course-details-c1.html")
+def course_details_c1():
+	return render_template("course-details-c1.html")
+
+@app.route("/course-details-scratch.html")
+def course_details_scratch():
+	return render_template("course-details-scratch.html")
+
+@app.route("/course-details-web1.html")
+def course_details_web1():
+	return render_template("course-details-web1.html")
 
 @app.route("/contacts.html")
 def register():
