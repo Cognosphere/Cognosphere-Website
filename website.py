@@ -29,9 +29,9 @@ def course_details_python2():
 def course_details_python3():
 	return render_template("course-details-python3.html")
 
-@app.route("/course-details-biomed.html")
-def course_details_biomed():
-	return render_template("course-details-biomed.html")
+@app.route("/course-details-biomedical.html")
+def course_details_biomedical():
+	return render_template("course-details-biomedical.html")
 
 @app.route("/course-details-java1.html")
 def course_details_java1():
