@@ -3,6 +3,6 @@ Our mission here at Cognosphere is to provide students K-8 with free technology 
 
 
 
-Go visit our website at  https://cognosphere.tech
+Go visit our website at  https://www.cognosphere.tech
 
 Tell everyone you know about it, and sign up today!
