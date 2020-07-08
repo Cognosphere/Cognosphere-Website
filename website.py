@@ -1,3 +1,4 @@
+'''
 from flask import Flask, render_template, request, url_for
 
 app = Flask(__name__)
@@ -11,11 +12,11 @@ def index():
 def form():
 	return render_template("about.html")
 
-'''
+
 @app.route("/courses.html")
 def courses():
 	return render_template("courses.html")
-'''
+
 
 @app.route("/course-details-python1.html")
 def course_details_python1():
@@ -71,3 +72,4 @@ def elements():
 
 if __name__ == '__main__':
 	app.run(debug=True)
+'''

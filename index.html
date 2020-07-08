@@ -5,7 +5,7 @@
   <!-- Mobile Specific Meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Favicon -->
-  <link rel="shortcut icon" href="img/fav.png" />
+  <link rel="shortcut icon" href="img/favicon2.png" />
   <!-- Author Meta -->
   <meta name="author" content="colorlib" />
   <!-- Meta Description -->
@@ -38,9 +38,12 @@
   <header class="default-header">
     <nav class="navbar navbar-expand-lg  navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logo.png" alt="" />
+        <a class="navbar-brand" href="/">
+          <img src="img/mylogo3.png" width="138.6" height="28.8" alt="">
         </a>
+        <!-- <a class="navbar-brand" href="/">
+          <img src="img/logo.png" alt="">
+        </a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="lnr lnr-menu"></span>
@@ -48,13 +51,32 @@
 
         <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
           <ul class="navbar-nav">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="about.html">About Us</a></li>
-            <li><a href="courses.html">Meet the Team</a></li>
+            <!-- <li><a href="courses.html">Meet the Team</a></li> -->
             <!-- Dropdown -->
-            <li><a href="course-details.html">Courses</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                Courses
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="course-details-python1.html">Intro to Python</a>
+                <a class="dropdown-item" href="course-details-python2.html">Intermediate Python</a>
+                <a class="dropdown-item" href="course-details-python3.html">Advanced Python</a>
+                <a class="dropdown-item" href="course-details-biomedical.html">Biomedical Engineering</a>
+                <a class="dropdown-item" href="course-details-hardwareengineering.html">Hardware Engineering</a>
+                <a class="dropdown-item" href="course-details-c1.html">Intro to C</a>
+                <a class="dropdown-item" href="course-details-java1.html">Intro to Java</a>
+                <a class="dropdown-item" href="course-details-scratch.html">Scratch</a>
 
-            <li><a href="contacts.html">Register</a></li>
+
+
+
+
+              </div>
+            </li>
+
+            <li><a href="register.html">Register</a></li>
             </li>
           </ul>
         </div>
@@ -72,22 +94,23 @@
   </header>
   <!-- ================ End Header Area ================= -->
 
+
   <!-- ================ start banner Area ================= -->
   <section class="home-banner-area">
     <div class="container">
       <div class="row justify-content-center fullscreen align-items-center">
-        <div class="col-lg-5 col-md-9 home-banner-left">
-          <h1 class="text-white">
-            Take the first step <br />
-            to learn with us
+        <div class="col-lg-5 col-md-8 home-banner-left">
+          <h1 class="text-white text-center mt-1">
+            Take the first step to learn with us
           </h1>
-          <p class="mx-auto text-white  mt-20 mb-20">
-            Our mission here at Cognosphere is to provide students K-8 with free technology education; introducing and providing them with the fundamentals needed to succeed later on in life. We believe it shouldn’t matter how rich or poor a person is; that everyone deserves the opportunity to learn, grow, and prepare for the future that lies before them. Whether we like it or not, the further we develop and advance as a society, the more vital coding becomes. Cognosphere wants to help your child stay ahead of the curve with our cost-free, instructional program.
-          </p>
-          <div class="text-center">
-            <button id="register"class="btn text-uppercase"><li><a href="contacts.html">Register Today!</a></li></button>
-          </div>
+          <p class="mx-auto text-white  mt-20 mb-10 text-center">
+            Cognosphere is an educational program designed to provide free tech lessons to students K-8. With our help, students will have the opportunity to thrive and broaden their understanding of modern technology.
 
+
+          </p>
+          <div class="button-group-area mt-47 align-items-center text-center">
+            <a style="font-size:1.2em" href="register.html" class="genric-btn success circle">Register</a>
+    			</div>
         </div>
         <div class="offset-lg-2 col-lg-5 col-md-12 home-banner-right">
           <img class="img-fluid" src="img/header-img.png" alt="" />
@@ -103,33 +126,33 @@
       <div class="feature-inner row">
         <div class="col-lg-2 col-md-6">
           <div class="feature-item d-flex">
-            <i class="ti-book"></i>
+            <i class="ti-desktop"></i>
             <div class="ml-20">
-              <h4>New Technology</h4>
+              <h4>Beneficial</h4>
               <p>
-                Technology is one of the most wanted skills in the world today.
+                Technology is one of the most popular fields in today's world.
               </p>
             </div>
           </div>
         </div>
         <div class="col-lg-2 col-md-6">
           <div class="feature-item d-flex">
-            <i class="ti-cup"></i>
+            <i class="ti-money"></i>
             <div class="ml-20">
               <h4>Free</h4>
               <p>
-                Everything we teach is for free. We want to elimante the educational barriers like income.
+                All classes are offered at zero expense to overcome any financial barriers.
               </p>
             </div>
           </div>
         </div>
         <div class="col-lg-2 col-md-6">
           <div class="feature-item d-flex border-right-0">
-            <i class="ti-desktop"></i>
+            <i class="ti-world"></i>
             <div class="ml-20">
               <h4>Remote</h4>
               <p>
-                You can take part in classes from any part of the world, as long as you have a computer and internt connection.
+               Take part in our classes from anywhere in the world!
               </p>
             </div>
           </div>
@@ -149,24 +172,24 @@
             Current Courses
           </h2>
           <p>
-            Here are some of the courses we currently offer. For more information visit the courses page to get an indepth overview of the curriculum.
+            We offer a wide variety of courses. Students can start with a class that teaches the basics of Scratch and progress to classes that teach Advanced Python or Biomedical Engineering. With each course provided, our mentors are dedicated to helping your student succeed.
           </p>
         </div>
       </div>
       <div class="owl-carousel popuar-course-carusel">
         <div class="single-popular-course">
           <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/intro-python.jpg" alt="" />
+            <img class="f-img img-fluid mx-auto" src="img/popular-course/introp.jpg" alt="" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between mb-20 text-center" >
-              <p class="name text-center">K-3</p>
+              <p class="name text-center">K-3 and 4-6</p>
             </div>
-            <a href="#">
+            <a href="/course-details-python1.html">
               <h4>Intro to Python</h4>
             </a>
-            <div class="d-flex justify-content-between mb-1" >
-              <p class="">Teaches so and so and so so and so and so so and so and so.</p>
+            <div class="d-flex justify-content-between mb-20 mt-10" >
+              <p class="">This course teaches the the basics of Python and solidifies the basics of programming as a whole. </p>
               <p></p>
             </div>
           </div>
@@ -176,55 +199,134 @@
 
         <div class="single-popular-course">
           <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/p2.jpg" alt="" />
+            <img class="f-img img-fluid mx-auto" src="img/popular-course/java.png" alt="" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between mb-20">
               <p class="name">4-6 and 7-8</p>
             </div>
-            <a href="#">
-              <h4>Intermediate Python</h4>
+            <a href="/course-details-java1.html">
+              <h4>Intro to Java</h4>
             </a>
-            <div class="d-flex justify-content-between mb-20">
-              <p class="">Teaches so and so so and so so and so so and so so and so.</p>
+            <div class="d-flex justify-content-between mb-20 mt-10">
+              <p class="">This course teaches the basics of one of the most popular and renowned coding languages, Java.</p>
             </div>
           </div>
         </div>
 
         <div class="single-popular-course">
           <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/p3.jpg" alt="" />
+            <img class="f-img img-fluid mx-auto" src="img/popular-course/c.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="d-flex justify-content-between mb-20">
+              <p class="name">4-6 and 7-8</p>
+            </div>
+            <a href="/course-details-c1.html">
+              <h4>Intro to C</h4>
+            </a>
+            <div class="d-flex justify-content-between mb-20 mt-10">
+              <p class="">This course teaches the basics of C, one of the most used and oldest coding languages.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="single-popular-course">
+          <div class="thumb">
+            <img class="f-img img-fluid mx-auto" src="img/popular-course/biomedpic.png" alt="" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between mb-20">
               <p class="name">7-8</p>
             </div>
-            <a href="#">
+            <a href="/course-details-biomedical.html">
               <h4>Biomedical Engineering</h4>
             </a>
+            <div class="d-flex justify-content-between mb-20 mt-10">
+              <p class="">This course will teach students about tech used in the medical field today.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="single-popular-course">
+          <div class="thumb">
+            <img class="f-img img-fluid mx-auto" src="img/popular-course/hard.png" alt="" />
+          </div>
+          <div class="details">
             <div class="d-flex justify-content-between mb-20">
-              <p class="">Teaches so and so so and so so and so so and so so and so.</p>
+              <p class="name">7-8</p>
+            </div>
+            <a href="/course-details-hardwareengineering.html">
+              <h4>Hardware Engineering</h4>
+            </a>
+            <div class="d-flex justify-content-between mb-20 mt-10">
+              <p class="">This course dives into the complex hardware that goes into everyday tech.</p>
             </div>
           </div>
         </div>
 
         <div class="single-popular-course">
           <div class="thumb">
-            <img class="f-img img-fluid mx-auto" src="img/popular-course/p4.jpg" alt="" />
+            <img class="f-img img-fluid mx-auto" src="img/popular-course/scratch1.jpg" alt="" />
           </div>
           <div class="details">
             <div class="d-flex justify-content-between mb-20">
-              <p class="name">7-8</p>
+              <p class="name">K-3</p>
             </div>
-            <a href="#">
-              <h4>Advanced Python</h4>
+            <a href="/course-details-scratch.html">
+              <h4>Scratch</h4>
             </a>
-            <div class=" justify-content-between mb-20">
-              <p class="">Teaches so and so  so and so  so and so  so and so.</p>
+            <div class="d-flex justify-content-between mb-20 mt-10">
+              <p class="">This course teaches younger students the fundamentals of coding using Scratch.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="single-popular-course">
+          <div class="thumb">
+            <img class="f-img img-fluid mx-auto" src="img/popular-course/interpython.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="d-flex justify-content-between mb-20">
+              <p class="name">4-6 and 7-8</p>
+            </div>
+            <a href="/course-details-python2.html">
+              <h4>Intermediate Python</h4>
+            </a>
+            <div class="d-flex justify-content-between mb-20 mt-10">
+              <p class="">This course expands on the basic principles of Python and its applications  </p>
               <p></p>
             </div>
           </div>
         </div>
+
+
+        <div class="single-popular-course">
+          <div class="thumb">
+            <img class="f-img img-fluid mx-auto" src="img/popular-course/python.png" alt="" />
+          </div>
+          <div class="details">
+            <div class="d-flex justify-content-between mb-20">
+              <p class="name">7-8</p>
+            </div>
+            <a href="/course-details-python3.html">
+              <h4>Advanced Python</h4>
+            </a>
+            <div class=" justify-content-between mb-20 mt-10">
+              <p class="">This course helps students build real-world projects using Python. </p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+
+
+
       </div>
     </div>
   </section>
@@ -237,12 +339,10 @@
         <div class="col-lg-5">
           <div class="section-title text-white">
             <h2 class="text-white">
-              Watch Our Mission <br>
-              Video
+              Why We Teach Technology?
             </h2>
             <p>
-              In the history of modern astronomy, there is probably no one greater leap forward than the building and
-              launch of the space telescope known as the Hubble.
+              In today's world, we can't live without tech. Watch some of the most prominent figures in the world explain what the future holds for us.
             </p>
           </div>
         </div>
@@ -250,33 +350,30 @@
           <div class="owl-carousel video-carousel">
             <div class="single-video">
               <div class="video-part">
-                <img class="img-fluid" src="img/video-img.jpg" alt="">
+                <img class="img-fluid" src="img/whycode.jpg" alt="">
                 <div class="overlay"></div>
-                <a class="popup-youtube play-btn" href="https://www.youtube.com/watch?v=VufDd-QL1c0">
+                <a class="popup-youtube play-btn" target="_blank" href="https://www.youtube.com/watch?v=Dv7gLpW91DM">
                   <img class="play-icon" src="img/play-btn.png" alt="">
                 </a>
               </div>
-              <h4 class="text-white mb-20 mt-30">Free Learning made by students, made for students</h4>
+              <h4 class="text-white mb-20 mt-30">Why Programming Is Important?</h4>
               <p class="text-white mb-20">
-                In the history of modern astronomy, there is probably no one greater leap forward than the building and
-                launch of the space telescope known as the Hubble.
+                Some of the biggest names in tech, like Bill Gates and Mark Zuckerberg, explain why programming is reshaping the way we think, learn, and live our lives.
               </p>
             </div>
 
             <div class="single-video">
               <div class="video-part">
-                <img class="img-fluid" src="img/video-img.jpg" alt="">
+                <img class="img-fluid" src="img/elonmusk.jpg" alt="">
                 <div class="overlay"></div>
-                <a class="popup-youtube play-btn" href="https://www.youtube.com/watch?v=VufDd-QL1c0">
+                <a class="popup-youtube play-btn" target="_blank" href="https://www.youtube.com/watch?v=zIwLWfaAg-8">
                   <img class="play-icon" src="img/play-btn.png" alt="">
                 </a>
               </div>
-              <h4 class="text-white mb-20 mt-30">Learn Angular js Course for Legendary Persons</h4>
+              <h4 class="text-white mb-20 mt-30">The future we're building -- and boring | Elon Musk</h4>
               <p class="text-white mb-20">
-                In the history of modern astronomy, there is probably no one greater leap forward than the building and
-                launch of the space telescope known as the Hubble.
+                Elon Musk, one of the most successful technology entrepreneurs, explains how technology is taking over the way we live. He talks about his motivation for building a future on Mars in conversation with TED's Head Curator, Chris Anderson.
               </p>
-            </div>
           </div>
         </div>
       </div>
@@ -291,96 +388,75 @@
         <div class="col-lg-12">
           <div class="section-title text-left">
             <h2>
-              Features That <br />
-              Can Avail By Everyone
+              Why Cognosphere? <br />
             </h2>
             <p>
-              If you are looking at blank cassettes on the web, you may be
-              very confused at the difference in price. You may see some for
-              as low as $.17 each.
+              We have many features to help provide an enhanced educational understanding to our students.
             </p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="other-feature-item">
-            <i class="ti-key"></i>
-            <h4>Lifetime Access</h4>
+            <i class="ti-money"></i>
+            <h4>Free</h4>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed
-                do eiusmod tempor incididunt labore. Lorem ipsum dolor sit
-                amet consec tetur adipisicing elit, sed do eiusmod tempor
-                incididunt labore.
+                Cognosphere is a big believer in eliminating any wealth barriers that may prevent a student from learning. This is why we provide free classes to all students, regardless of any circumstances.
               </p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mt--160">
           <div class="other-feature-item">
-            <i class="ti-files"></i>
-            <h4>Source File Included</h4>
+            <i class="ti-tablet"></i>
+            <h4>Remote</h4>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed
-                do eiusmod tempor incididunt labore. Lorem ipsum dolor sit
-                amet consec tetur adipisicing elit, sed do eiusmod tempor
-                incididunt labore.
+                All classes taught through our organization will be provided online. Our goal is to be able to reach a global audience; offering online lessons brings us one step closer to this aspiration.
               </p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mt--260">
           <div class="other-feature-item">
-            <i class="ti-medall-alt"></i>
-            <h4>Student Membership</h4>
+            <i class="ti-layout-grid4"></i>
+            <h4>Variety of Courses</h4>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed
-                do eiusmod tempor incididunt labore. Lorem ipsum dolor sit
-                amet consec tetur adipisicing elit, sed do eiusmod tempor
-                incididunt labore.
+                There are numerous aspects of technology, ranging from Scratch all the way to Biomedical Engineering. We give your student the choice of what they want to learn, varying on their grade and skill level.
               </p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="other-feature-item">
-            <i class="ti-briefcase"></i>
-            <h4>35000+ Courses</h4>
+            <i class="ti-user"></i>
+            <h4>Trained Mentors</h4>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed
-                do eiusmod tempor incididunt labore. Lorem ipsum dolor sit
-                amet consec tetur adipisicing elit, sed do eiusmod tempor
-                incididunt labore.
+                Expert mentors are vital for an enriched instructional experience. All mentors at Cognosphere are trained and equipped to help your student succeed.
               </p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mt--160">
           <div class="other-feature-item">
-            <i class="ti-crown"></i>
-            <h4>Expert Mentors</h4>
+            <i class="ti-eye"></i>
+            <h4>Live and Interactive</h4>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed
-                do eiusmod tempor incididunt labore. Lorem ipsum dolor sit
-                amet consec tetur adipisicing elit, sed do eiusmod tempor
-                incididunt labore.
+                All of our classes are offered live to provide students with an authentic classroom setting. Students can interact with others, ask questions, and explore a conventional learning environment with the flexibility to work remotely.
               </p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mt--260">
           <div class="other-feature-item">
-            <i class="ti-headphone-alt"></i>
-            <h4>Live Supports</h4>
+            <i class="ti-book"></i>
+            <h4>Top-Notch Curriculums </h4>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed
-                do eiusmod tempor incididunt labore. Lorem ipsum dolor sit
-                amet consec tetur adipisicing elit, sed do eiusmod tempor
-                incididunt labore.
+                Our updated curriculums are specifically designed to be ideal for educational sessions. The syllabus is straightforward, providing detailed lesson plans that ensure a successful learning experience.
               </p>
             </div>
           </div>
@@ -391,7 +467,7 @@
   <!-- ================ End Feature Area ================= -->
 
   <!-- ================ Start Testimonials Area ================= -->
-  <section class="testimonials-area section-gap">
+  <!-- <section class="testimonials-area section-gap">
     <div class="container">
       <div class="testi-slider owl-carousel" data-slider-id="1">
         <div class="row align-items-center">
@@ -443,7 +519,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- ================ End Testimonials Area ================= -->
 
   <!-- ================ Start Registration Area ================= -->
@@ -453,13 +529,11 @@
         <div class="col-lg-5">
           <div class="section-title text-left text-white">
             <h2 class="text-white">
-              Watch Our Trainers <br>
-              in Live Action
+              Start your tech <br>
+              journey today
             </h2>
             <p>
-              If you are looking at blank cassettes on the web, you may be
-              very confused at the difference in price. You may see some for
-              as low as $.17 each.
+              Since all of our sessions are free and through video calls, you can take part from anywhere in the world. So, what are you waiting for, register today!
             </p>
           </div>
         </div>
@@ -467,8 +541,8 @@
           <div class="course-form-section">
             <h3 class="text-white">Courses for Free</h3>
             <p class="text-white">It is high time for learning</p>
-            <form class="course-form-area contact-page-form course-form text-right" id="myForm" action="mail.html" method="post">
-              <div class="form-group col-md-12">
+            <!-- <form class="course-form-area contact-page-form course-form text-right" id="myForm" action="/register.html" > -->
+              <!-- <div class="form-group col-md-12">
                 <input type="text" class="form-control" id="name" name="name" placeholder="Name" onfocus="this.placeholder = ''"
                  onblur="this.placeholder = 'Name'">
               </div>
@@ -479,11 +553,15 @@
               <div class="form-group col-md-12">
                 <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" onfocus="this.placeholder = ''"
                  onblur="this.placeholder = 'Email Address'">
-              </div>
+              </div> -->
+              <br><br><br><br><br><br><br><br><br><br>
+           <!--   <form class="" action="register.html" method="post"> -->
               <div class="col-lg-12 text-center">
-                <button class="btn text-uppercase">Submit</button>
+                <a class="btn text-uppercase" href = "/register.html">Register</a>
               </div>
-            </form>
+              </form>
+
+            <!-- </form> -->
           </div>
         </div>
       </div>
@@ -492,40 +570,31 @@
   <!-- ================ End Registration Area ================= -->
 
   <!-- ================ Start Blog Post Area ================= -->
-  <section class="blog-post-area section-gap">
+  <section id="contact_us" class="blog-post-area section-gap">
     <div class="container-fluid">
       <div class="feature-inner row">
         <div class="col-lg-12">
           <div class="section-title text-left">
             <h2>
-              Features That <br />
-              Can Avail By Everyone
+              Contact Us <br />
             </h2>
             <p>
-              There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope.
-              It’s exciting to think about setting up your own viewing station.
+              Feel free to contact us for any inquiries!
             </p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="single-blog-post">
-            <img src="img/blog-post/b1.jpg" class="img-fluid" alt="" />
-            <div class="overlay"></div>
-            <div class="top-text">
-              <p>29th, oct, 2018</p>
-              <p>121 likes</p>
-              <p>05 comments</p>
-            </div>
+            <img src="img/blog-post/email2.png" class="img-fluid" alt="" />
             <div class="text">
-              <h4 class="text-white">Smart Kitchen Setup</h4>
+              <h4 style="font-size:2em" class="text-white">Email Us</h4>
               <div>
                 <p>
-                  Lorem ipsum dolor sit amet consec tetur adipisicing elit,
-                  sed do.
+                  cognosphere.tech@gmail.com
                 </p>
               </div>
-              <a href="#" class="primary-btn">
-                View Details
+              <a href="mailto:cognosphere.tech@gmail.com" class="primary-btn">
+                Write An Email
                 <i class="fa fa-long-arrow-right"></i>
               </a>
             </div>
@@ -533,23 +602,16 @@
         </div>
         <div class="col-lg-4 col-md-6 mt--160">
           <div class="single-blog-post">
-            <img src="img/blog-post/b2.jpg" class="img-fluid" alt="" />
-            <div class="overlay"></div>
-            <div class="top-text">
-              <p>29th, oct, 2018</p>
-              <p>121 likes</p>
-              <p>05 comments</p>
-            </div>
+            <img src="img/blog-post/call.jpg" class="img-fluid" alt="" />
             <div class="text">
-              <h4 class="text-white">Smart Kitchen Setup</h4>
+              <h4 style="font-size:2em" class="text-white"><b></b>Call Us</b></h4>
               <div>
                 <p>
-                  Lorem ipsum dolor sit amet consec tetur adipisicing elit,
-                  sed do.
+                  (925)-575-7039‬
                 </p>
               </div>
-              <a href="#" class="primary-btn">
-                View Details
+              <a href="tel:9255757039" class="primary-btn">
+                Call Now
                 <i class="fa fa-long-arrow-right"></i>
               </a>
             </div>
@@ -557,24 +619,12 @@
         </div>
         <div class="col-lg-4 col-md-6 mt--260">
           <div class="single-blog-post">
-            <img src="img/blog-post/b3.jpg" class="img-fluid" alt="" />
-            <div class="overlay"></div>
-            <div class="top-text">
-              <p>29th, oct, 2018</p>
-              <p>121 likes</p>
-              <p>05 comments</p>
-            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1612455.0428865764!2d-123.54155029158672!3d37.87605218268424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808583a3a688d7b5%3A0x8c891b8457461fa9!2sSan%20Francisco%20Bay%20Area%2C%20CA!5e0!3m2!1sen!2sus!4v1593639880449!5m2!1sen!2sus" width="365" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         <!--   <img src="img/blog-post/b3.jpg" class="img-fluid" alt="" /> -->
             <div class="text">
-              <h4 class="text-white">Smart Kitchen Setup</h4>
+              <h4 class="text-white" style="font-size:2em" >Find Us</h4>
               <div>
-                <p>
-                  Lorem ipsum dolor sit amet consec tetur adipisicing elit,
-                  sed do.
-                </p>
               </div>
-              <a href="#" class="primary-btn">
-                View Details
-                <i class="fa fa-long-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -588,45 +638,41 @@
   <footer class="footer-area section-gap">
 		<div class="container">
 			<div class="row">
+        <div class="col-lg-2 col-md-6 single-footer-widget">
+          <h4></h4>
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="register.html"></a></li>
+          </ul>
+        </div>
+
 				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Top Products</h4>
+					<h4>Join Us</h4>
 					<ul>
-						<li><a href="#">Managed Website</a></li>
-						<li><a href="#">Manage Reputation</a></li>
-						<li><a href="#">Power Tools</a></li>
-						<li><a href="#">Marketing Service</a></li>
+						<li><a href="#contact_us">Contact Us</a></li>
+						<li><a href="register.html">Be a Mentee</a></li>
+	<!--					<li><a href="#">Testimonials</a></li>    <-- we can add this when we actually have testimonials -->
 					</ul>
 				</div>
 				<div class="col-lg-2 col-md-6 single-footer-widget">
 					<h4>Quick Links</h4>
 					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Features</h4>
-					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
+						<li><a href="mailto:cognosphere.tech@gmail.com">Email Us</a></li>
+						<li><a href="tel:9255757039">Call Us</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-2 col-md-6 single-footer-widget">
 					<h4>Resources</h4>
 					<ul>
-						<li><a href="#">Guides</a></li>
-						<li><a href="#">Research</a></li>
-						<li><a href="#">Experts</a></li>
-						<li><a href="#">Agencies</a></li>
+						<li><a target="_blank" href="https://docs.google.com/document/d/1GI6tmOK5CcuXLWio6l7eLrd6GInheygB-vSrP6i2NRI/edit">Image Credits</a></li>
+						<li><a target="_blank" href="https://colorlib.com">Colorlib (Template)</a>
+            </li>
 					</ul>
 				</div>
+        <!--
 				<div class="col-lg-4 col-md-6 single-footer-widget">
 					<h4>Newsletter</h4>
-					<p>You can trust us. we only send promo offers,</p>
+					<p>You can trust us. We only send study tips and offers.</p>
 					<div class="form-wrap" id="mc_embed_signup">
 						<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
 						 method="get" class="form-inline">
@@ -636,23 +682,23 @@
 							<div style="position: absolute; left: -5000px;">
 								<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
 							</div>
-
+            -->
 							<div class="info"></div>
 						</form>
 					</div>
 				</div>
 			</div>
-			<div class="footer-bottom row align-items-center">
+			<div class="footer-bottom row align-items-center text-center">
 				<p class="footer-text m-0 col-lg-8 col-md-12">
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved<!-- | Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>-->
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-				<div class="col-lg-4 col-md-12 footer-social">
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-					<a href="#"><i class="fa fa-behance"></i></a>
-				</div>
+        <div class="col-lg-4 col-md-12 footer-social">
+          <a target="_blank" href="https://www.facebook.com/Cognosphere-111476450631667/"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://twitter.com/TheCognosphere"><i class="fa fa-twitter"></i></a>
+          <a target="_blank" href="https://www.instagram.com/thecognosphere/"><i class="fa fa-instagram"></i></a>
+          <a target="_blank" href="https://github.com/cognosphere"><i class="fa fa-github"></i></a>
+        </div>
 			</div>
 		</div>
 	</footer>
